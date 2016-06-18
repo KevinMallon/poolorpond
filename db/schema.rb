@@ -11,7 +11,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160607235242) do
+ActiveRecord::Schema.define(version: 20160618044414) do
+
+  create_table "points", force: :cascade do |t|
+    t.integer  "roundof16"
+    t.integer  "roundof8"
+    t.integer  "roundof4"
+    t.integer  "roundof2"
+    t.integer  "champion"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "teams", force: :cascade do |t|
+    t.string   "name"
+    t.string   "group"
+    t.integer  "owner_id"
+    t.string   "round16"
+    t.string   "round8"
+    t.string   "round4"
+    t.string   "round2"
+    t.string   "champion"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  roundof16: 1
+  roundof8: 1
+  roundof4: 1
+  roundof2: 1
+  champion: 1
+
+two:
+  roundof16: 1
+  roundof8: 1
+  roundof4: 1
+  roundof2: 1
+  champion: 1

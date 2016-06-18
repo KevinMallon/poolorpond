@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  group: MyString
+  round16: MyString
+  round8: MyString
+  round4: MyString
+  round2: MyString
+  champion: MyString
+
+two:
+  name: MyString
+  group: MyString
+  round16: MyString
+  round8: MyString
+  round4: MyString
+  round2: MyString
+  champion: MyString
